@@ -13,6 +13,22 @@ Features
 Erste Schritte
 Es ist kein Build-Prozess oder eine Installation notwendig.
 
+Die Anwendung benötigt im Wesentlichen zwei Hauptkomponenten:
+ * Datei-Ladefunktion: Eine Möglichkeit für den Benutzer, eine lokale .bin-Datei in die Anwendung zu laden.
+ * Hex-Editor-Ansicht: Eine Schnittstelle, die den Inhalt der Datei in einem für Menschen lesbaren Hexadezimalformat darstellt und Bearbeitungen ermöglicht.
+Beispielcode (HTML, CSS und JavaScript)
+Dieser Code erstellt eine einfache Webseite, die eine Binärdatei laden und ihren Inhalt als Hex-Dump anzeigen kann. Änderungen werden ebenfalls widergespiegelt.
+1. HTML-Datei (index.html)
+Diese Datei strukturiert die Webseite mit einem Dateiauswahlfeld und einem Bereich für die Hex-Ansicht.
+
+Wie man es benutzt
+ * Speichern: Speichern Sie die drei Code-Blöcke als index.html, style.css und app.js im selben Ordner.
+ * Öffnen: Öffnen Sie die index.html-Datei in Google Chrome.
+ * Laden: Klicken Sie auf "Datei auswählen" und wählen Sie eine .bin-Datei von Ihrem Computer.
+ * Anzeigen und Bearbeiten: Der Inhalt wird als Hex-Code angezeigt. Sie können die Hex-Werte direkt im Textfeld bearbeiten.
+ * Speichern: Klicken Sie auf "Änderungen speichern", um die bearbeitete Datei herunterzuladen.
+Dies ist eine grundlegende Implementierung. Für eine vollwertige Anwendung könnten Sie Funktionen wie die Anzeige von ASCII-Äquivalenten, Suchen & Ersetzen und eine bessere Fehlerbehandlung hinzufügen.
+
 Lokal ausführen
  * Laden Sie die index.html-Datei aus diesem Repository herunter.
  * Öffnen Sie die index.html-Datei in einem modernen Webbrowser wie Google Chrome, Firefox oder Edge.
